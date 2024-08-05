@@ -8,6 +8,10 @@ public class Student {
       String test="12312";
         System.out.println("吃饭");
     }
+ public void Aea_milk() {
+      String test="12312";
+        System.out.println("吃饭");
+    }
  
     public void sleepdfdf() {
         System.out.println("睡觉");
