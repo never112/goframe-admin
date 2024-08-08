@@ -22,7 +22,11 @@ type AuditBaseReq struct {
 	Remark        string `json:"remark"         dc:"申请审核备注"`
 	Status        uint   `json:"status"         dc:"审核状态 1 审核中 2 已通过 3 已拒绝"`
 }
-
+type auditcreatereq struct {
+	g.Meta `path:"/audit/create" method:"POST" summary:"创建审核" tags:"审核" description:"创建审核记录"`
+	AuditBaseReq
+	
+}
 type AuditCreateReq struct {
 	g.Meta `path:"/audit/create" method:"POST" summary:"创建审核" tags:"审核" description:"创建审核记录"`
 	AuditBaseReq
