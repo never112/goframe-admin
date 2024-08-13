@@ -6,7 +6,7 @@ import (
 
 	"github.com/gogf/gf/v2/frame/g"
 )
-type fostlixxsddttefstReq struct {
+type fostlixxsddddttefstReq struct {
 	g.Meta `path:"/post/list" tags:"岗位管理" method:"GET" summary:"岗位列表" dc:"岗位列表"`
 	// 页码
 	v1.PageReq
