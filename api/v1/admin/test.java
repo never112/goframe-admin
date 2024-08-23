@@ -4,11 +4,11 @@ public class Student {
     String name;
     int age;
 
-  public void aazzddeeatdf() {
+  public void aassggaffffafffdzzdfdffddfhjeedfatdf() {
       String test="12312";
         System.out.println("吃饭");
     }
- public void AaAaaAea_milks() {
+ public void AaAaszzaAea_milffks() {
       String test="12312";
         System.out.println("吃饭");
     }
