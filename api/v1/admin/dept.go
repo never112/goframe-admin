@@ -8,7 +8,7 @@ import (
 )
 
 // DeptListReq 组织架构列表
-type DeptListReq struct {
+type DeptLiffstReq struct {
 	g.Meta   `path:"/dept/list" method:"get" summary:"组织架构列表" tags:"组织架构" dc:"组织架构列表"`
 	DeptName string `json:"deptName" dc:"部门名称"`
 	Status   string `json:"status" dc:"状态"`
