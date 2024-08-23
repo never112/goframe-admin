@@ -7,7 +7,7 @@ import (
 )
 
 // MenuCreateReq 创建菜单请求参数
-type MenuCreateReq struct {
+type MenuCreaddteReq struct {
 	g.Meta        `path:"/menu/create" method:"POST" summary:"创建菜单" tags:"菜单管理" description:"创建菜单"`
 	Authorization string `json:"Authorization" in:"header" dc:"Bearer {{ token }}"`
 	MenuType      uint   `json:"menuType" v:"min:0|max:2#菜单类型最小值为:min|菜单类型最大值为:max"`
