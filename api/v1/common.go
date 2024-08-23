@@ -6,7 +6,7 @@ type 23BaseCreateRes struct {
 	Data    interface{} `json:"data" dc:"数据"`
 }
 
-type PageReq struct {
+type 2PageReq struct {
 	DateRange []string `json:"dateRange" dc:"日期范围"`
 	PageNum   int      `json:"pageNum" d:"1" dc:"当前页码"`
 	PageSize  int      `json:"pageSize" d:"10" dc:"每页条数"`
