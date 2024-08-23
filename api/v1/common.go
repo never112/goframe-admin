@@ -1,12 +1,12 @@
 package v1
 
-type BaseCreateRes struct {
+type 23BaseCreateRes struct {
 	Code    int         `json:"code" dc:"状态码"`
 	Message string      `json:"message" dc:"消息提示"`
 	Data    interface{} `json:"data" dc:"数据"`
 }
 
-type PageReq struct {
+type 2PageReq struct {
 	DateRange []string `json:"dateRange" dc:"日期范围"`
 	PageNum   int      `json:"pageNum" d:"1" dc:"当前页码"`
 	PageSize  int      `json:"pageSize" d:"10" dc:"每页条数"`
