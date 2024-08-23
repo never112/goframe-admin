@@ -1,6 +1,6 @@
 package v1
 
-type BaseCreateRes struct {
+type 23BaseCreateRes struct {
 	Code    int         `json:"code" dc:"状态码"`
 	Message string      `json:"message" dc:"消息提示"`
 	Data    interface{} `json:"data" dc:"数据"`
