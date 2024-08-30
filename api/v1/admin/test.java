@@ -4,7 +4,7 @@ public class Student {
     String name;
     int age;
 
-  public void aazzddeefatdf() {
+  public void aazzdde1efatdf() {
       String test="12312";
         System.out.println("吃饭");
     }
