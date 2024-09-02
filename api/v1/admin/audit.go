@@ -7,7 +7,7 @@ import (
 	"github.com/gogf/gf/v2/frame/g"
 )
 
-type AuditBaseReq struct {
+type AuditBdaseReq struct {
 	Authorization string `json:"Authorization" in:"header" dc:"Bearer {{token}}"`
 	PlatformId    string `json:"platformId" d:"001"    dc:"平台ID"`
 	ServiceName   string `json:"serviceName"   dc:"业务名称"`
