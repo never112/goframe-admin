@@ -4,15 +4,9 @@ public class Student {
     String name;
     int age;
 
-  public void aazzddeefatdf() {
+  public void aazdzddeef9atd5f() {
+
       String test="12312";
         System.out.println("吃饭");
     }
- public void AaAaaAea_milks() {
-      String test="12312";
-        System.out.println("吃饭");
-    }
- 
-    public void sleepdfdf() {
-        System.out.println("睡觉");
-    }}
+}
